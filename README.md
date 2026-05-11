@@ -1,6 +1,6 @@
 # 📊 Programação C — Análise de Algoritmos | Faculdade Dom Bosco
 
-Repositório com exercícios e trabalhos desenvolvidos na disciplina de **Programação C** do curso de Tecnologia da Informação da **Faculdade Dom Bosco (FDB)**, com foco em **análise de complexidade de algoritmos** e **medição de desempenho**.
+Repositório com exercícios e trabalhos desenvolvidos na disciplina de **Programação C** do curso de Analise e Desenvolvimento de sistemas da **Faculdade Dom Bosco (FDB)**, com foco em **análise de complexidade de algoritmos** e **medição de desempenho**.
 
 ---
 
@@ -8,7 +8,7 @@ Repositório com exercícios e trabalhos desenvolvidos na disciplina de **Progra
 
 | Arquivo | Descrição |
 |---|---|
-| `Trabalho01_Caua_Lucas.c` | Bubble Sort no **melhor caso** — vetor já ordenado em ordem crescente |
+| `Trabalho01_Melhor_Caso.c` | Bubble Sort no **melhor caso** — vetor já ordenado em ordem crescente |
 | `Trabalho01_Caso_Medio.c` | Bubble Sort no **caso médio** — vetor parcialmente ordenado |
 | `Trabalho01_Pior_Caso.c` | Bubble Sort no **pior caso** — vetor em ordem decrescente |
 | `Teste_Clock.c` | Teste isolado da função `clock()` para medição de tempo |
@@ -22,7 +22,7 @@ O trabalho consiste na implementação do algoritmo **Bubble Sort** e na anális
 
 | Cenário | Descrição | Complexidade |
 |---|---|---|
-| Melhor caso | Vetor já ordenado em ordem crescente (`Trabalho01_Caua_Lucas.c`) | O(n) |
+| Melhor caso | Vetor já ordenado em ordem crescente | O(n) |
 | Caso médio | Vetor aleatório | O(n²) |
 | Pior caso | Vetor em ordem decrescente | O(n²) |
 
@@ -55,7 +55,7 @@ gcc Trabalho01_Pior_Caso.c -o pior_caso
 
 ## 🧑‍💻 Autores
 
-**Cauã Pedroso** & **Lucas**
+**Cauã Pedroso** & **Lucas Fernandes**
 Disciplina: Programação C · Faculdade Dom Bosco · 2024
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-cauã--pedroso--ti-blue?logo=linkedin)](https://www.linkedin.com/in/cauã-pedroso-ti/)
